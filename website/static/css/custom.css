@@ -1,16 +1,33 @@
 /* your custom css */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+    
 }
 
 @media only screen and (min-width: 1024px) {
+    .nav-footer .fbOpenSource{
+        margin-left: 44%;
+        width:9%;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
+    .nav-footer .fbOpenSource{
+        margin-left: 38%;
+        width:18%;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
+    .nav-footer .fbOpenSource{
+        margin-left: 46%;
+        width:6%;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
+    .nav-footer .fbOpenSource{
+        margin-left: 46%;
+        width:6%;
+    }
 }
