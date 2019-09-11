@@ -30,14 +30,13 @@ class HomeSplash extends React.Component {
     );
 
     const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+      <div >
+        <img src={props.img_src} alt="Project Logo" className="headerLogo_cus" height="50%" width="25%"/>
       </div>
     );
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title}
         <small>{siteConfig.tagline}</small>
       </h2>
     );
@@ -60,8 +59,9 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        
         <div className="inner">
+          <Logo img_src={`${baseUrl}img/cohen-logo.png`} />
           <ProjectTitle siteConfig={siteConfig} />
           {/* <PromoSection>
             <Button href="#try">Try It Out</Button>
@@ -81,7 +81,7 @@ class Index extends React.Component {
 
     const Block = props => (
       <Container
-        padding={['bottom', 'top']}
+        padding={['bottom','top']}
         id={props.id}
         background={props.background}>
         <GridBlock
@@ -92,17 +92,22 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
+    const LynxApp = () => (
+      <Block background="light" id='lynxApp'>
+        {[
+          {
+            content:
+              'Each new Docusaurus project has **randomly-generated** theme colors.',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            imageAlign: 'right',
+            title: 'LYNX Application',
+          },
+        ]}
+      </Block>
     );
 
-    const TryOut = () => (
-      <Block id="try">
+    const LYNXAPI = () => (
+      <Block id="lynxApi">
         {[
           {
             content:
@@ -111,35 +116,34 @@ class Index extends React.Component {
               'The illustrations you see on this page are from unDraw.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'LYNX API',
           },
         ]}
       </Block>
     );
 
-    const Description = () => (
-      <Block background="dark">
+    const JDE = () => (
+      <Block background="dark" id="jde">
         {[
           {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+            content:'This is another description of how this project is useful',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'JDE',
           },
         ]}
       </Block>
     );
 
-    const LearnHow = () => (
-      <Block background="light">
+    const Mobile = () => (
+      <Block id='mobile'>
         {[
           {
             content:
               'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            image: `${baseUrl}img/undraw_note_list.svg`,
+            imageAlign: 'left',
+            title: 'Mobile Application',
           },
         ]}
       </Block>
@@ -152,57 +156,39 @@ class Index extends React.Component {
             content: 'This is the content of my feature',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: '<a href="#lynxApp">Lynx Application</a>',
           },
           {
             content: 'The content of my second feature',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: '<a href="#lynxApi">LYNX API</a>',
+          },
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/undraw_react.svg`,
+            imageAlign: 'top',
+            title: '<a href="#jde">JD Edwards</a>',
+          },
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/mobile_logo.png`,
+            imageAlign: 'top',
+            title: '<a href="#mobile">Mobile App</a>',
           },
         ]}
       </Block>
     );
-
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <LynxApp />
+          <LYNXAPI />
+          <JDE />
+          <Mobile />
         </div>
       </div>
     );

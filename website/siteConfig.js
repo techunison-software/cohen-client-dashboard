@@ -22,8 +22,8 @@ const users = [
 
 const siteConfig = {
   title: 'COHEN', // Title for your website.
-  tagline: 'Specialist in  Oracle JD Edwards',
-  url: 'https://techunison.in', // Your website URL
+  tagline: 'As the leading recycler of metal and electronics in the Midwest, Cohen is on a mission to make it simpler for businesses and individuals to recycle their materials safely, responsibly, and conveniently. Together with support from our communities, we are co-creating a bluer planet.',
+  //url: 'https://techunison.in', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
