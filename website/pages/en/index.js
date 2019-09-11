@@ -100,7 +100,7 @@ class Index extends React.Component {
               'Each new Docusaurus project has **randomly-generated** theme colors.',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'LYNX Application',
+            title: 'Lynx Application',
           },
         ]}
       </Block>
@@ -116,7 +116,7 @@ class Index extends React.Component {
               'The illustrations you see on this page are from unDraw.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'LYNX API',
+            title: 'Lynx API',
           },
         ]}
       </Block>
@@ -127,7 +127,7 @@ class Index extends React.Component {
         {[
           {
             content:'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/jde_logo.png`,
             imageAlign: 'right',
             title: 'JDE',
           },
@@ -154,19 +154,19 @@ class Index extends React.Component {
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/Lynx App.png`,
             imageAlign: 'top',
             title: '<a href="#lynxApp">Lynx Application</a>',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/api_logo.png`,
             imageAlign: 'top',
-            title: '<a href="#lynxApi">LYNX API</a>',
+            title: '<a href="#lynxApi">Lynx API</a>',
           },
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/jde_logo.png`,
             imageAlign: 'top',
             title: '<a href="#jde">JD Edwards</a>',
           },

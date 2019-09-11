@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'COHEN', // Title for your website.
+  title: 'Test Site', // Title for your website.
   tagline: 'As the leading recycler of metal and electronics in the Midwest, Cohen is on a mission to make it simpler for businesses and individuals to recycle their materials safely, responsibly, and conveniently. Together with support from our communities, we are co-creating a bluer planet.',
-  //url: 'https://techunison.in', // Your website URL
+  // url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'Cohen',
-  organizationName: 'Techuninson',
+  organizationName: 'Techunison',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,9 +39,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    //{doc: 'doc4', label: 'API'},
+    // {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
-    //{blog: false, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#1d2660',
-    secondaryColor: '#141a43',
+    primaryColor: '#a63901',
+    secondaryColor: '#742700',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Techunison Software India PVT LTD`,
+  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
