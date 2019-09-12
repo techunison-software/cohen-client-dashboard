@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
+  title: 'COHEN', // Title for your website.
   tagline: 'As the leading recycler of metal and electronics in the Midwest, Cohen is on a mission to make it simpler for businesses and individuals to recycle their materials safely, responsibly, and conveniently. Together with support from our communities, we are co-creating a bluer planet.',
   // url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#a63901',
-    secondaryColor: '#742700',
+    primaryColor: '#1d2660',
+    secondaryColor: '#141a43',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Techunison Software India PVT LTD.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

@@ -110,7 +110,7 @@ class Footer extends React.Component {
             height="45"
           />
         </a> */}
-        <a class="fbOpenSource" href={this.props.config.baseUrl} className="nav-home">
+        <a className="fbOpenSource" href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
