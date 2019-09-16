@@ -145,7 +145,7 @@ from the windows taskbar.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image7.png)<span dir="ltr"></span>
+![](assets/image7.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -166,7 +166,7 @@ below</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image3.png)<span dir="ltr"></span>
+![](assets/image3.png)<span dir="ltr"></span>
 
 **<span dir="ltr">Step: 3</span>**
 
@@ -175,7 +175,7 @@ credentials and establish a remote connection to the machine.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image18.png)<span dir="ltr"></span>
+![](assets/image18.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -193,7 +193,7 @@ connect to a new Database . Enter the details as given below</span>
 
 <span dir="ltr">Password: \*\*\*</span>
 
-![](./media/media/image17.png) <span dir="ltr"> </span>
+![](assets/image17.png) <span dir="ltr"> </span>
 
 <span dir="ltr"></span>
 
@@ -212,7 +212,7 @@ navigate to Tasks 🡪 Shrink and select Database.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image9.png)<span dir="ltr"></span>
+![](assets/image9.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -224,7 +224,7 @@ space**” option.</span>
 
 <span dir="ltr"> </span>
 
-![](./media/media/image13.png)<span dir="ltr"></span>
+![](assets/image13.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -241,7 +241,7 @@ navigate to Tasks 🡪 Shrink and select Files.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image10.png)<span dir="ltr"></span>
+![](assets/image10.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -250,7 +250,7 @@ action as the “**Release unused space**” option.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image11.png)<span dir="ltr"></span>
+![](assets/image11.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -269,7 +269,7 @@ Task🡪Back Up option.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image12.png)<span dir="ltr"></span>
+![](assets/image12.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -286,11 +286,11 @@ JDE\_PRODUCTION\_FULL\_02012019.bak”**</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image24.png) <span dir="ltr"> </span>
+![](assets/image24.png) <span dir="ltr"> </span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image22.png)<span dir="ltr"></span>
+![](assets/image22.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -302,7 +302,7 @@ JDE\_PRODUCTION\_FULL\_02012019.bak</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image21.png)<span dir="ltr"></span>
+![](assets/image21.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -339,7 +339,7 @@ destination server and rename the file as
 “**JDE\_DEVELOPMENT\_FULL\_02012019.bak**” in the path
 **“E:\\SQLBackup\\ JDE\_DEVELOPMENT\_FULL\_02012019.bak”.**</span>
 
-![](./media/media/image27.png)<span dir="ltr"></span>
+![](assets/image27.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -359,7 +359,7 @@ as given below</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image23.png) <span dir="ltr"> </span>
+![](assets/image23.png) <span dir="ltr"> </span>
 
 <span dir="ltr"></span>
 
@@ -374,7 +374,7 @@ navigate to **Tasks🡪Restore** and select “**Database**” option.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image25.png)<span dir="ltr"></span>
+![](assets/image25.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -396,7 +396,7 @@ JDE\_DEVELOPMENT\_FULL\_02012019.bak”**</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image29.png)<span dir="ltr"></span>
+![](assets/image29.png)<span dir="ltr"></span>
 
 **<span dir="ltr">Step: 5</span>**
 
@@ -406,7 +406,7 @@ JDE\_DEVELOPMENT\_FULL\_02012019.bak”**</span>
 database (With Replace)”** to replace the all the files for that target
 Schema. (Schema definitions with data)</span>
 
-![](./media/media/image28.png)<span dir="ltr"></span>
+![](assets/image28.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -414,7 +414,7 @@ Schema. (Schema definitions with data)</span>
 
 <span dir="ltr">Click “**OK**”.</span>
 
-![](./media/media/image19.png)<span dir="ltr"></span>
+![](assets/image19.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -423,7 +423,7 @@ completes, the system will issue the following prompt.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image26.png)<span dir="ltr"></span>
+![](assets/image26.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -457,7 +457,7 @@ connect for new Database.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image23.png) <span dir="ltr"> </span>
+![](assets/image23.png) <span dir="ltr"> </span>
 
 <span dir="ltr"></span>
 
@@ -586,7 +586,7 @@ one.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image2.png)<span dir="ltr"></span>
+![](assets/image2.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -596,7 +596,7 @@ one.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image1.png)<span dir="ltr"></span>
+![](assets/image1.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -615,7 +615,7 @@ access.</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image4.png)<span dir="ltr"></span>
+![](assets/image4.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -653,7 +653,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image6.png)<span dir="ltr"></span>
+![](assets/image6.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -661,7 +661,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image15.png)<span dir="ltr"></span>
+![](assets/image15.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -673,7 +673,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image14.png)<span dir="ltr"></span>
+![](assets/image14.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -688,7 +688,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image20.png)<span dir="ltr"></span>
+![](assets/image20.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -706,7 +706,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image8.png)<span dir="ltr"></span>
+![](assets/image8.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
@@ -714,7 +714,7 @@ Servers tui-e192entdb and tuijava:</span>
 
 <span dir="ltr"></span>
 
-![](./media/media/image16.png)<span dir="ltr"></span>
+![](assets/image16.png)<span dir="ltr"></span>
 
 <span dir="ltr"></span>
 
