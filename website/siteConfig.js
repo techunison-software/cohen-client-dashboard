@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#a63901',
-    secondaryColor: '#742700',
+    primaryColor: '#1d2660',
+    secondaryColor: '#141a43',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Techunison Software Pvt. Ltd.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Techunison Software India Pvt Ltd.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
