@@ -1,10 +1,10 @@
 {
   "docs": {
     "Lynx Application": ["doc1"],
-    "Lynx API": ["doc2"],
+    "Lynx Interface": ["doc2"],
     "JDE": ["doc3"],
-    "Mobile Application": ["doc4"]
-  },
+    "Mobile Application": ["doc6"]
+ },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
   }

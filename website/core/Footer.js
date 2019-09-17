@@ -27,7 +27,7 @@ class Footer extends React.Component {
         <section className="sitemap">
           
           <div>
-            <h5>Docs</h5>
+            {/* <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Getting Started (or other categories)
             </a>
@@ -36,10 +36,10 @@ class Footer extends React.Component {
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
               API Reference (or other categories)
-            </a>
+            </a> */}
           </div>
           <div>
-            <h5>Community</h5>
+            {/* <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
@@ -55,10 +55,10 @@ class Footer extends React.Component {
               target="_blank"
               rel="noreferrer noopener">
               Twitter
-            </a>
+            </a> */}
           </div>
           <div>
-            <h5>More</h5>
+            {/* <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
             <a
@@ -94,22 +94,31 @@ class Footer extends React.Component {
                   data-show-faces="false"
                 />
               </div>
-            )}
+            )} */}
           </div>
         </section>
 
-        <a
-          href="https://techunison.in/"
+         <a
+          href="http://www.techunison.com/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/tui-logo.png`}
-            alt="Facebook Open Source"
-            width="150"
-            height="45"
+            src={this.props.config.baseUrl + this.props.config.footerIcon}
+            alt={this.props.config.title}
+            width="130"
+            height="55"
           />
-        </a>
+        </a> 
+         {/* <a className="fbOpenSource" href={this.props.config.baseUrl} className="nav-home">
+            {this.props.config.footerIcon && (
+              <img
+                src={this.props.config.baseUrl + this.props.config.footerIcon}
+                alt={this.props.config.title}
+                
+              />
+            )}
+          </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
