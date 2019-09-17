@@ -98,19 +98,19 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        {/* <a
-          href="https://opensource.facebook.com/"
+         <a
+          href="http://www.techunison.com/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
+            src={this.props.config.baseUrl + this.props.config.footerIcon}
+            alt={this.props.config.title}
+            width="130"
+            height="55"
           />
-        </a> */}
-        <a className="fbOpenSource" href={this.props.config.baseUrl} className="nav-home">
+        </a> 
+         {/* <a className="fbOpenSource" href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -118,7 +118,7 @@ class Footer extends React.Component {
                 
               />
             )}
-          </a>
+          </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

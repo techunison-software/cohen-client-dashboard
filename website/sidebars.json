@@ -4,7 +4,7 @@
     "Lynx Interface": ["doc2"],
     "JDE": ["doc3"],
     "Mobile Application": ["doc6"]
-  },
+ },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
   }
